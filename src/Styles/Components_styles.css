@@ -1,0 +1,40 @@
+.Card {
+  width: min(100% - 5px, 200px);
+  height: min(100% - 5px, 200px);
+  border: 1px solid #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.title__card {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.img__card {
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+}
+
+.gifGrid__container {
+  width: 800px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+}
+
+input {
+  width: 800px;
+  height: 50px;
+  border-radius: 15px;
+  padding: 0 20px;
+  font-size: 20px;
+}
